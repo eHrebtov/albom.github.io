@@ -1,0 +1,13 @@
+:host {
+    & .background {
+        display: grid;
+        place-items: center;
+        height: 100%;
+        width: 100%;
+        background-color: aqua;
+        & .image {
+            max-width: 80%;
+            max-height: 80%;
+        }
+    }
+}
