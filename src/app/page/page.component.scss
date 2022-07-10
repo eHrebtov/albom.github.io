@@ -1,15 +1,16 @@
 :host {
     & .background {
-        display: grid;
-        place-items: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         height: 100%;
         width: 100%;
         background: url(../../assets/back.jpg);
         background-repeat: round;
         background-size: cover;
         & .image {
-            max-width: 70%;
-            max-height: 70%;
+            max-width: 80%;
+            max-height: 90%;
         }
     }
 }
