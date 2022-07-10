@@ -19,8 +19,8 @@ export class AppComponent implements OnInit, AfterViewInit {
     const book = document.getElementById('book')
     if (book) {
       this.pageFlip = new PageFlip(book, {
-        width: 400,
-        height: 600,
+        width: window.innerWidth / 2,
+        height: window.innerHeight,
         autoSize: true,
       });
 

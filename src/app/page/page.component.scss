@@ -4,10 +4,12 @@
         place-items: center;
         height: 100%;
         width: 100%;
-        background-color: aqua;
+        background: url(../../assets/back.jpg);
+        background-repeat: round;
+        background-size: cover;
         & .image {
-            max-width: 80%;
-            max-height: 80%;
+            max-width: 70%;
+            max-height: 70%;
         }
     }
 }
